@@ -9,10 +9,14 @@
 /* Begin PBXBuildFile section */
 		D8254DD01F5076CC001F2216 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8254DCF1F5076CC001F2216 /* main.m */; };
 		D8254DD31F5076CC001F2216 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8254DD21F5076CC001F2216 /* AppDelegate.m */; };
-		D8254DD61F5076CC001F2216 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8254DD51F5076CC001F2216 /* ViewController.m */; };
 		D8254DD91F5076CC001F2216 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8254DD71F5076CC001F2216 /* Main.storyboard */; };
 		D8254DDB1F5076CC001F2216 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8254DDA1F5076CC001F2216 /* Assets.xcassets */; };
 		D8254DDE1F5076CC001F2216 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8254DDC1F5076CC001F2216 /* LaunchScreen.storyboard */; };
+		D8254DE81F50788E001F2216 /* JLMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = D8254DE71F50788E001F2216 /* JLMovie.m */; };
+		D8254DEB1F50789F001F2216 /* JLMovieController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8254DEA1F50789F001F2216 /* JLMovieController.m */; };
+		D8254DEE1F50790C001F2216 /* JLNetworkController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8254DED1F50790C001F2216 /* JLNetworkController.m */; };
+		D8254DF41F5092F1001F2216 /* MoviesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8254DF31F5092F1001F2216 /* MoviesTableViewController.swift */; };
+		D8F0629F1F50975000887DD7 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F0629E1F50975000887DD7 /* MovieTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +24,19 @@
 		D8254DCF1F5076CC001F2216 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D8254DD11F5076CC001F2216 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D8254DD21F5076CC001F2216 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D8254DD41F5076CC001F2216 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D8254DD51F5076CC001F2216 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D8254DD81F5076CC001F2216 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D8254DDA1F5076CC001F2216 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8254DDD1F5076CC001F2216 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8254DDF1F5076CC001F2216 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8254DE61F50788E001F2216 /* JLMovie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLMovie.h; sourceTree = "<group>"; };
+		D8254DE71F50788E001F2216 /* JLMovie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLMovie.m; sourceTree = "<group>"; };
+		D8254DE91F50789F001F2216 /* JLMovieController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLMovieController.h; sourceTree = "<group>"; };
+		D8254DEA1F50789F001F2216 /* JLMovieController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLMovieController.m; sourceTree = "<group>"; };
+		D8254DEC1F50790C001F2216 /* JLNetworkController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLNetworkController.h; sourceTree = "<group>"; };
+		D8254DED1F50790C001F2216 /* JLNetworkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLNetworkController.m; sourceTree = "<group>"; };
+		D8254DF21F5092F1001F2216 /* MovieC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MovieC-Bridging-Header.h"; sourceTree = "<group>"; };
+		D8254DF31F5092F1001F2216 /* MoviesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesTableViewController.swift; sourceTree = "<group>"; };
+		D8F0629E1F50975000887DD7 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +71,11 @@
 			children = (
 				D8254DD11F5076CC001F2216 /* AppDelegate.h */,
 				D8254DD21F5076CC001F2216 /* AppDelegate.m */,
-				D8254DD41F5076CC001F2216 /* ViewController.h */,
-				D8254DD51F5076CC001F2216 /* ViewController.m */,
-				D8254DD71F5076CC001F2216 /* Main.storyboard */,
-				D8254DDA1F5076CC001F2216 /* Assets.xcassets */,
-				D8254DDC1F5076CC001F2216 /* LaunchScreen.storyboard */,
-				D8254DDF1F5076CC001F2216 /* Info.plist */,
+				D83E7AE71F50964F00452992 /* UI */,
+				D8254DF11F50818A001F2216 /* Model */,
+				D8254DF01F508182001F2216 /* Model Controller */,
+				D8254DEF1F50817B001F2216 /* Network Controller */,
+				D8254DE51F5076D6001F2216 /* Resources */,
 				D8254DCE1F5076CC001F2216 /* Supporting Files */,
 			);
 			path = MovieC;
@@ -74,9 +84,57 @@
 		D8254DCE1F5076CC001F2216 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D8254DF21F5092F1001F2216 /* MovieC-Bridging-Header.h */,
 				D8254DCF1F5076CC001F2216 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8254DE51F5076D6001F2216 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D8254DDA1F5076CC001F2216 /* Assets.xcassets */,
+				D8254DDC1F5076CC001F2216 /* LaunchScreen.storyboard */,
+				D8254DDF1F5076CC001F2216 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D8254DEF1F50817B001F2216 /* Network Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D8254DEC1F50790C001F2216 /* JLNetworkController.h */,
+				D8254DED1F50790C001F2216 /* JLNetworkController.m */,
+			);
+			name = "Network Controller";
+			sourceTree = "<group>";
+		};
+		D8254DF01F508182001F2216 /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D8254DE91F50789F001F2216 /* JLMovieController.h */,
+				D8254DEA1F50789F001F2216 /* JLMovieController.m */,
+			);
+			name = "Model Controller";
+			sourceTree = "<group>";
+		};
+		D8254DF11F50818A001F2216 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D8254DE61F50788E001F2216 /* JLMovie.h */,
+				D8254DE71F50788E001F2216 /* JLMovie.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D83E7AE71F50964F00452992 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D8254DD71F5076CC001F2216 /* Main.storyboard */,
+				D8254DF31F5092F1001F2216 /* MoviesTableViewController.swift */,
+				D8F0629E1F50975000887DD7 /* MovieTableViewCell.swift */,
+			);
+			name = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,12 +163,14 @@
 		D8254DC31F5076CC001F2216 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = JL;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Joe Lucero";
 				TargetAttributes = {
 					D8254DCA1F5076CC001F2216 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 53BVAZ8K9G;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -151,9 +211,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8254DD61F5076CC001F2216 /* ViewController.m in Sources */,
+				D8254DF41F5092F1001F2216 /* MoviesTableViewController.swift in Sources */,
+				D8254DEB1F50789F001F2216 /* JLMovieController.m in Sources */,
+				D8F0629F1F50975000887DD7 /* MovieTableViewCell.swift in Sources */,
+				D8254DE81F50788E001F2216 /* JLMovie.m in Sources */,
 				D8254DD31F5076CC001F2216 /* AppDelegate.m in Sources */,
 				D8254DD01F5076CC001F2216 /* main.m in Sources */,
+				D8254DEE1F50790C001F2216 /* JLNetworkController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,11 +337,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 53BVAZ8K9G;
 				INFOPLIST_FILE = MovieC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iOSDevelopr.MovieC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MovieC/MovieC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -285,11 +353,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 53BVAZ8K9G;
 				INFOPLIST_FILE = MovieC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iOSDevelopr.MovieC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MovieC/MovieC-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -312,6 +383,7 @@
 				D8254DE41F5076CC001F2216 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
